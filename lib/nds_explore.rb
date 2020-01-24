@@ -17,6 +17,6 @@ def print_first_directors_movie_titles
 # pp directors_database
 # get AoHoAoH
 # directors_database[names = 0 ][movies][title]
-# need directors_database[0][:movies][****ALL TITLES****] 
+# need directors_database[0][:movies][****ALL TITLES****]
   puts directors_database[0][:movies][:title]
 end
