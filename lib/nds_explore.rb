@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   # i = 0
 
   # while i < directors_database[0][:movies].count do
-    pp directors_database
+    pp directors_database.each_key { |key| puts key }
     # i += 1
   # end
 
