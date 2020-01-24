@@ -10,7 +10,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-   for each { |i| puts directors_database[i][0] }
+   i = 0
+   while i < directors_database[i].count do
+     puts directors_database[i][0]
+   end
 
 
 end
