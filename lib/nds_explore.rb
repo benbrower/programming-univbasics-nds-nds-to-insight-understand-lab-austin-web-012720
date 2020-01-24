@@ -18,5 +18,5 @@ def print_first_directors_movie_titles
 # get AoHoAoH
 # directors_database[names = 0 ][movies][title]
 # need directors_database[0][:movies][****ALL TITLES****]
-  pp directors_database[0][:movies][:title]
+  pp directors_database[0][:movies][0][:title]
 end
