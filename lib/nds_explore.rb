@@ -12,7 +12,7 @@ end
 def print_first_directors_movie_titles
 # pp directors_database
 # get AoHoAoH
-# directors_database[director name index][movies][movie index][title]
+# directors_database[array of director name][hash of movie array][array of movie Hashes][title key]
 # need directors_database[0][:movies][index][:title]
 
   movie_index = 0
